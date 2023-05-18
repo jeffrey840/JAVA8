@@ -1,0 +1,176 @@
+Sure, here are some multiple-choice questions based on the extracted text:
+
+Based on the extracted information from the Java 8 book, here are some multiple-choice questions along with their answers:
+
+1. **Question**: What does the special syntax `/**` indicate in Java comments?
+    - A) It starts a single-line comment.
+    - B) It starts a multiline comment.
+    - C) It starts a Javadoc comment.
+    - D) It starts a block of code.
+
+   **Answer**: C) It starts a Javadoc comment.
+
+2. **Question**: What is a key difference between static and instance members in Java?
+    - A) Instance members can call static members.
+    - B) Static members can call instance members.
+    - C) Both static and instance members can call each other.
+    - D) Neither static nor instance members can call each other.
+
+   **Answer**: A) Instance members can call static members.
+
+3. **Question**: What happens when a superclass is caught before a subclass in a series of catch blocks?
+    - A) The code compiles and runs without issues.
+    - B) A compiler error about unreachable code occurs.
+    - C) The catch blocks are ignored.
+    - D) The order of catch blocks is automatically reversed.
+
+   **Answer**: B) A compiler error about unreachable code occurs.
+
+4. **Question**: What could cause a piece of code to fail to compile in relation to variable scope?
+    - A) A variable is defined within a block of code and used outside of it.
+    - B) A variable is defined outside a block of code and used within it.
+    - C) A variable is defined and used within the same block of code.
+    - D) A variable is defined and used outside of any block of code.
+
+   **Answer**: A) A variable is defined within a block of code and used outside of it.
+
+1. What should you look at when you see a static method or variable in Java?
+    a) The value of the variable
+    b) The reference type for the variable
+    c) The type of the method
+    d) The name of the variable
+
+2. What will the exam creators try to trick you into thinking when a variable happens to be null?
+    a) A NullPointerException is thrown
+    b) The program will crash
+    c) The variable is not initialized
+    d) The variable is not used
+
+3. What should you verify in switch statements?
+    a) They use acceptable data types
+    b) They have a default case
+    c) They are properly indented
+    d) They have at least one case
+
+4. What is the difference between '==' and 'equals()' in Java?
+    a) They are the same
+    b) '==' checks for value equality, 'equals()' checks for reference equality
+    c) '==' checks for reference equality, 'equals()' checks for value equality
+    d) '==' is used for primitives, 'equals()' is used for objects
+
+5. What does the static import in Java import?
+    a) A class
+    b) A method
+    c) A variable
+    d) Static members of a class
+
+6. What happens when you try to do a static import of two methods with the same name?
+    a) The compiler will complain
+    b) The latest imported method will be used
+    c) Both methods can be used interchangeably
+    d) The first imported method will be used
+
+7. What is the data type of x / y if x and y are both promoted to int before the operation?
+    a) int
+    b) short
+    c) long
+    d) float
+
+8. What is the purpose of the Arrays class in Java?
+    a) To create arrays
+    b) To manipulate arrays
+    c) To store multiple values of the same type
+    d) To import other classes
+
+
+Sure, here are some multiple-choice questions based on the extracted text:
+
+1. What do the parse methods, such as parseInt(), return in Java?
+    a) A wrapper class
+    b) A primitive
+    c) A String
+    d) A null value
+    Answer: b) A primitive
+
+2. What is the trickiest String method on the exam according to the text?
+    a) indexOf()
+    b) length()
+    c) substring()
+    d) charAt()
+    Answer: c) substring()
+
+3. What happens when you use an instance of an object to call a static method in Java?
+    a) It throws a NullPointerException
+    b) The compiler checks for the type of the reference and uses that instead of the object
+    c) It results in a compile-time error
+    d) None of the above
+    Answer: b) The compiler checks for the type of the reference and uses that instead of the object
+
+4. What is the result of trying to access an index that doesn't exist in a string using the substring() method?
+    a) It returns an empty string
+    b) It throws an exception
+    c) It returns null
+    d) It ignores the call
+    Answer: b) It throws an exception
+
+5. What is the tricky part about declaring and initializing multiple variables in the same line in Java?
+    a) All variables must be of the same type
+    b) Only one of the variables gets initialized
+    c) Each snippet separated by a comma is a little declaration of its own
+    d) All of the above
+    Answer: d) All of the above
+
+6. What happens when a returned value from a method is not used in Java?
+    a) It throws a NullPointerException
+    b) It results in a compile-time error
+    c) The result is ignored
+    d) It is stored in a temporary variable
+    Answer: c) The result is ignored
+
+7. What is the access level of a method if there is no keyword for access level?
+    a) Public
+    b) Private
+    c) Protected
+    d) Default (Package Private)
+    Answer: d) Default (Package Private)
+
+Please note that these questions are based on the provided text and might not cover all aspects of Java 8.
+
+Sure, based on the information you've provided, here are some multiple-choice questions along with their answers:
+
+1. What does the interface in Java 8 take as parameters?
+    a) Two int parameters
+    b) Two String parameters
+    c) Two StringBuilder parameters
+    d) Two double parameters
+    Answer: a) Two int parameters
+
+2. What are the rules for legal identifiers in Java?
+    a) The name must begin with a letter or the symbol $ or _.
+    b) Subsequent characters may also be numbers.
+    c) You cannot use the same name as a Java reserved word.
+    d) All of the above.
+    Answer: d) All of the above.
+
+3. What happens when you pass invalid numbers to of() in Java 8?
+    a) It throws a DateTimeException.
+    b) It throws a NumberFormatException.
+    c) It throws an IllegalArgumentException.
+    d) It throws a NullPointerException.
+    Answer: a) It throws a DateTimeException.
+
+4. What is the result of concatenating a string with a number in Java 8?
+    a) It results in a number.
+    b) It results in a string.
+    c) It results in a compilation error.
+    d) It results in a runtime error.
+    Answer: b) It results in a string.
+
+5. What is the scope of a variable defined within a block in Java 8?
+    a) It is in scope until the block ends.
+    b) It is in scope throughout the method it is defined in.
+    c) It is in scope throughout the class it is defined in.
+    d) It is in scope throughout the package it is defined in.
+    Answer: a) It is in scope until the block ends.
+
+Remember, these questions are based on the information you provided and may not cover all aspects of Java 8.
