@@ -1,0 +1,14 @@
+[
+{
+  "question": "What is the result of the following class? (Choose all that apply)",
+  "code": "public class _C {\n  private static int $;\n  public static void main(String[] main) {\n    String a_b;\n    System.out.print($);\n    System.out.print(a_b);\n  }\n}",
+  "correctAnswers": ["Compiler error on line 6."],
+  "wrongAnswers": [
+    "Compiler error on line 1.",
+    "Compiler error on line 2.",
+    "Compiler error on line 4.",
+    "Compiler error on line 5."
+  ]
+}
+]
+

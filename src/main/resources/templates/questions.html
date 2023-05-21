@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Question Test</title>
+</head>
+<body>
+<div th:each="question : ${questions}">
+  <h3 th:text="${question.question}"></h3>
+  <pre><code th:text="${question.code}"></code></pre>
+  <p>Choose the correct answer(s):</p>
+  <ul>
+    <li th:each="correctAnswer : ${question.correctAnswers}" th:text="${correctAnswer}"></li>
+  </ul>
+  <p>Choose the wrong answer(s):</p>
+  <ul>
+    <li th:each="wrongAnswer : ${question.wrongAnswers}" th:text="${wrongAnswer}"></li>
+  </ul>
+</div>
+</body>
+</html>
