@@ -7,9 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-//public class StudentServiceImpl    {
-//
-//}
 
 @Service
 public class StudentServiceImpl implements StudentService {
@@ -22,8 +19,8 @@ public class StudentServiceImpl implements StudentService {
         return studentRepository.save(student);
     }
 
-//    @Override
-//    public List<Student> getAllStudents() {
-//        return studentRepository.findAll();
-//    }
+    @Override
+    public List<Student> getAllStudents() {
+        return studentRepository.findAll();
+    }
 }

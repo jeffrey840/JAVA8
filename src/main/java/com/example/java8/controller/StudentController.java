@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/student")
 public class StudentController {
@@ -19,6 +21,11 @@ public class StudentController {
     public String add(@RequestBody Student student) {
         studentService.saveStudent(student);
         return "new student is added";
+    }
+
+    @GetMapping("/getAll")
+    public List<Student> list(){
+        return studentService.getAllStudents();
     }
 
 
